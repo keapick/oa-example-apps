@@ -35,9 +35,22 @@
 		5F2A95272D00C7A600BB3BF2 /* OASwiftUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OASwiftUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5FF7FDB22D0D905B00B5A2EC /* Exceptions for "OASwiftUIExample" folder in "OASwiftUIExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5F2A950A2D00C7A400BB3BF2 /* OASwiftUIExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5F2A950D2D00C7A400BB3BF2 /* OASwiftUIExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5FF7FDB22D0D905B00B5A2EC /* Exceptions for "OASwiftUIExample" folder in "OASwiftUIExample" target */,
+			);
 			path = OASwiftUIExample;
 			sourceTree = "<group>";
 		};
@@ -423,6 +436,7 @@
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OASwiftUIExample/Info.plist;
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Display Advertising ID to end user";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,6 +468,7 @@
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OASwiftUIExample/Info.plist;
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Display Advertising ID to end user";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

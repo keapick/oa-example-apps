@@ -13,6 +13,9 @@ struct OASwiftUIExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onOpenURL(perform: { url in
+                    print("Link: \(url)")
+                })
         }
     }
     
