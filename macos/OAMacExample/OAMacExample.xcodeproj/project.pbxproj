@@ -7,84 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F2A955E2D01A75E00BB3BF2 /* Marketing in Frameworks */ = {isa = PBXBuildFile; productRef = 5F2A955D2D01A75E00BB3BF2 /* Marketing */; };
-		5F2A95602D01A75E00BB3BF2 /* MarketingData in Frameworks */ = {isa = PBXBuildFile; productRef = 5F2A955F2D01A75E00BB3BF2 /* MarketingData */; };
-		5F2A95962D02F53C00BB3BF2 /* MarketingDataIDFA in Frameworks */ = {isa = PBXBuildFile; productRef = 5F2A95952D02F53C00BB3BF2 /* MarketingDataIDFA */; };
+		5FF7FDEE2D0F56F500B5A2EC /* Marketing in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF7FDED2D0F56F500B5A2EC /* Marketing */; };
+		5FF7FDF02D0F56F500B5A2EC /* MarketingData in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF7FDEF2D0F56F500B5A2EC /* MarketingData */; };
+		5FF7FDF22D0F56F500B5A2EC /* MarketingDataIDFA in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF7FDF12D0F56F500B5A2EC /* MarketingDataIDFA */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F2A951E2D00C7A600BB3BF2 /* PBXContainerItemProxy */ = {
+		5FF7FDD02D0F56E200B5A2EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5F2A95032D00C7A400BB3BF2 /* Project object */;
+			containerPortal = 5FF7FDB42D0F56E000B5A2EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5F2A950A2D00C7A400BB3BF2;
-			remoteInfo = OASwiftUIExample;
+			remoteGlobalIDString = 5FF7FDBB2D0F56E000B5A2EC;
+			remoteInfo = OAMacExample;
 		};
-		5F2A95282D00C7A600BB3BF2 /* PBXContainerItemProxy */ = {
+		5FF7FDDA2D0F56E200B5A2EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5F2A95032D00C7A400BB3BF2 /* Project object */;
+			containerPortal = 5FF7FDB42D0F56E000B5A2EC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5F2A950A2D00C7A400BB3BF2;
-			remoteInfo = OASwiftUIExample;
+			remoteGlobalIDString = 5FF7FDBB2D0F56E000B5A2EC;
+			remoteInfo = OAMacExample;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F2A950B2D00C7A400BB3BF2 /* OASwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OASwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F2A951D2D00C7A600BB3BF2 /* OASwiftUIExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OASwiftUIExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F2A95272D00C7A600BB3BF2 /* OASwiftUIExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OASwiftUIExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF7FDBC2D0F56E000B5A2EC /* OAMacExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAMacExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF7FDCF2D0F56E200B5A2EC /* OAMacExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAMacExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF7FDD92D0F56E200B5A2EC /* OAMacExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAMacExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5FF7FDB22D0D905B00B5A2EC /* Exceptions for "OASwiftUIExample" folder in "OASwiftUIExample" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 5F2A950A2D00C7A400BB3BF2 /* OASwiftUIExample */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5F2A950D2D00C7A400BB3BF2 /* OASwiftUIExample */ = {
+		5FF7FDBE2D0F56E000B5A2EC /* OAMacExample */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5FF7FDB22D0D905B00B5A2EC /* Exceptions for "OASwiftUIExample" folder in "OASwiftUIExample" target */,
-			);
-			path = OASwiftUIExample;
+			path = OAMacExample;
 			sourceTree = "<group>";
 		};
-		5F2A95202D00C7A600BB3BF2 /* OASwiftUIExampleTests */ = {
+		5FF7FDD22D0F56E200B5A2EC /* OAMacExampleTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OASwiftUIExampleTests;
+			path = OAMacExampleTests;
 			sourceTree = "<group>";
 		};
-		5F2A952A2D00C7A600BB3BF2 /* OASwiftUIExampleUITests */ = {
+		5FF7FDDC2D0F56E200B5A2EC /* OAMacExampleUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OASwiftUIExampleUITests;
+			path = OAMacExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F2A95082D00C7A400BB3BF2 /* Frameworks */ = {
+		5FF7FDB92D0F56E000B5A2EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2A955E2D01A75E00BB3BF2 /* Marketing in Frameworks */,
-				5F2A95602D01A75E00BB3BF2 /* MarketingData in Frameworks */,
-				5F2A95962D02F53C00BB3BF2 /* MarketingDataIDFA in Frameworks */,
+				5FF7FDEE2D0F56F500B5A2EC /* Marketing in Frameworks */,
+				5FF7FDF02D0F56F500B5A2EC /* MarketingData in Frameworks */,
+				5FF7FDF22D0F56F500B5A2EC /* MarketingDataIDFA in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2A951A2D00C7A600BB3BF2 /* Frameworks */ = {
+		5FF7FDCC2D0F56E200B5A2EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2A95242D00C7A600BB3BF2 /* Frameworks */ = {
+		5FF7FDD62D0F56E200B5A2EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,171 +81,163 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5F2A95022D00C7A400BB3BF2 = {
+		5FF7FDB32D0F56E000B5A2EC = {
 			isa = PBXGroup;
 			children = (
-				5F2A950D2D00C7A400BB3BF2 /* OASwiftUIExample */,
-				5F2A95202D00C7A600BB3BF2 /* OASwiftUIExampleTests */,
-				5F2A952A2D00C7A600BB3BF2 /* OASwiftUIExampleUITests */,
-				5F2A95942D02F53C00BB3BF2 /* Frameworks */,
-				5F2A950C2D00C7A400BB3BF2 /* Products */,
+				5FF7FDBE2D0F56E000B5A2EC /* OAMacExample */,
+				5FF7FDD22D0F56E200B5A2EC /* OAMacExampleTests */,
+				5FF7FDDC2D0F56E200B5A2EC /* OAMacExampleUITests */,
+				5FF7FDBD2D0F56E000B5A2EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5F2A950C2D00C7A400BB3BF2 /* Products */ = {
+		5FF7FDBD2D0F56E000B5A2EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F2A950B2D00C7A400BB3BF2 /* OASwiftUIExample.app */,
-				5F2A951D2D00C7A600BB3BF2 /* OASwiftUIExampleTests.xctest */,
-				5F2A95272D00C7A600BB3BF2 /* OASwiftUIExampleUITests.xctest */,
+				5FF7FDBC2D0F56E000B5A2EC /* OAMacExample.app */,
+				5FF7FDCF2D0F56E200B5A2EC /* OAMacExampleTests.xctest */,
+				5FF7FDD92D0F56E200B5A2EC /* OAMacExampleUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5F2A95942D02F53C00BB3BF2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F2A950A2D00C7A400BB3BF2 /* OASwiftUIExample */ = {
+		5FF7FDBB2D0F56E000B5A2EC /* OAMacExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F2A95312D00C7A600BB3BF2 /* Build configuration list for PBXNativeTarget "OASwiftUIExample" */;
+			buildConfigurationList = 5FF7FDE32D0F56E200B5A2EC /* Build configuration list for PBXNativeTarget "OAMacExample" */;
 			buildPhases = (
-				5F2A95072D00C7A400BB3BF2 /* Sources */,
-				5F2A95082D00C7A400BB3BF2 /* Frameworks */,
-				5F2A95092D00C7A400BB3BF2 /* Resources */,
+				5FF7FDB82D0F56E000B5A2EC /* Sources */,
+				5FF7FDB92D0F56E000B5A2EC /* Frameworks */,
+				5FF7FDBA2D0F56E000B5A2EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5F2A950D2D00C7A400BB3BF2 /* OASwiftUIExample */,
+				5FF7FDBE2D0F56E000B5A2EC /* OAMacExample */,
 			);
-			name = OASwiftUIExample;
+			name = OAMacExample;
 			packageProductDependencies = (
-				5F2A955D2D01A75E00BB3BF2 /* Marketing */,
-				5F2A955F2D01A75E00BB3BF2 /* MarketingData */,
-				5F2A95952D02F53C00BB3BF2 /* MarketingDataIDFA */,
+				5FF7FDED2D0F56F500B5A2EC /* Marketing */,
+				5FF7FDEF2D0F56F500B5A2EC /* MarketingData */,
+				5FF7FDF12D0F56F500B5A2EC /* MarketingDataIDFA */,
 			);
-			productName = OASwiftUIExample;
-			productReference = 5F2A950B2D00C7A400BB3BF2 /* OASwiftUIExample.app */;
+			productName = OAMacExample;
+			productReference = 5FF7FDBC2D0F56E000B5A2EC /* OAMacExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F2A951C2D00C7A600BB3BF2 /* OASwiftUIExampleTests */ = {
+		5FF7FDCE2D0F56E200B5A2EC /* OAMacExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F2A95342D00C7A600BB3BF2 /* Build configuration list for PBXNativeTarget "OASwiftUIExampleTests" */;
+			buildConfigurationList = 5FF7FDE62D0F56E200B5A2EC /* Build configuration list for PBXNativeTarget "OAMacExampleTests" */;
 			buildPhases = (
-				5F2A95192D00C7A600BB3BF2 /* Sources */,
-				5F2A951A2D00C7A600BB3BF2 /* Frameworks */,
-				5F2A951B2D00C7A600BB3BF2 /* Resources */,
+				5FF7FDCB2D0F56E200B5A2EC /* Sources */,
+				5FF7FDCC2D0F56E200B5A2EC /* Frameworks */,
+				5FF7FDCD2D0F56E200B5A2EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5F2A951F2D00C7A600BB3BF2 /* PBXTargetDependency */,
+				5FF7FDD12D0F56E200B5A2EC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5F2A95202D00C7A600BB3BF2 /* OASwiftUIExampleTests */,
+				5FF7FDD22D0F56E200B5A2EC /* OAMacExampleTests */,
 			);
-			name = OASwiftUIExampleTests;
+			name = OAMacExampleTests;
 			packageProductDependencies = (
 			);
-			productName = OASwiftUIExampleTests;
-			productReference = 5F2A951D2D00C7A600BB3BF2 /* OASwiftUIExampleTests.xctest */;
+			productName = OAMacExampleTests;
+			productReference = 5FF7FDCF2D0F56E200B5A2EC /* OAMacExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5F2A95262D00C7A600BB3BF2 /* OASwiftUIExampleUITests */ = {
+		5FF7FDD82D0F56E200B5A2EC /* OAMacExampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F2A95372D00C7A600BB3BF2 /* Build configuration list for PBXNativeTarget "OASwiftUIExampleUITests" */;
+			buildConfigurationList = 5FF7FDE92D0F56E200B5A2EC /* Build configuration list for PBXNativeTarget "OAMacExampleUITests" */;
 			buildPhases = (
-				5F2A95232D00C7A600BB3BF2 /* Sources */,
-				5F2A95242D00C7A600BB3BF2 /* Frameworks */,
-				5F2A95252D00C7A600BB3BF2 /* Resources */,
+				5FF7FDD52D0F56E200B5A2EC /* Sources */,
+				5FF7FDD62D0F56E200B5A2EC /* Frameworks */,
+				5FF7FDD72D0F56E200B5A2EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5F2A95292D00C7A600BB3BF2 /* PBXTargetDependency */,
+				5FF7FDDB2D0F56E200B5A2EC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5F2A952A2D00C7A600BB3BF2 /* OASwiftUIExampleUITests */,
+				5FF7FDDC2D0F56E200B5A2EC /* OAMacExampleUITests */,
 			);
-			name = OASwiftUIExampleUITests;
+			name = OAMacExampleUITests;
 			packageProductDependencies = (
 			);
-			productName = OASwiftUIExampleUITests;
-			productReference = 5F2A95272D00C7A600BB3BF2 /* OASwiftUIExampleUITests.xctest */;
+			productName = OAMacExampleUITests;
+			productReference = 5FF7FDD92D0F56E200B5A2EC /* OAMacExampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5F2A95032D00C7A400BB3BF2 /* Project object */ = {
+		5FF7FDB42D0F56E000B5A2EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					5F2A950A2D00C7A400BB3BF2 = {
-						CreatedOnToolsVersion = 16.1;
+					5FF7FDBB2D0F56E000B5A2EC = {
+						CreatedOnToolsVersion = 16.2;
 					};
-					5F2A951C2D00C7A600BB3BF2 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 5F2A950A2D00C7A400BB3BF2;
+					5FF7FDCE2D0F56E200B5A2EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5FF7FDBB2D0F56E000B5A2EC;
 					};
-					5F2A95262D00C7A600BB3BF2 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = 5F2A950A2D00C7A400BB3BF2;
+					5FF7FDD82D0F56E200B5A2EC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5FF7FDBB2D0F56E000B5A2EC;
 					};
 				};
 			};
-			buildConfigurationList = 5F2A95062D00C7A400BB3BF2 /* Build configuration list for PBXProject "OASwiftUIExample" */;
+			buildConfigurationList = 5FF7FDB72D0F56E000B5A2EC /* Build configuration list for PBXProject "OAMacExample" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5F2A95022D00C7A400BB3BF2;
+			mainGroup = 5FF7FDB32D0F56E000B5A2EC;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				5F2A955C2D01A75E00BB3BF2 /* XCLocalSwiftPackageReference "../../../oa-ios-sdk" */,
+				5FF7FDEC2D0F56F500B5A2EC /* XCLocalSwiftPackageReference "../../../oa-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5F2A950C2D00C7A400BB3BF2 /* Products */;
+			productRefGroup = 5FF7FDBD2D0F56E000B5A2EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F2A950A2D00C7A400BB3BF2 /* OASwiftUIExample */,
-				5F2A951C2D00C7A600BB3BF2 /* OASwiftUIExampleTests */,
-				5F2A95262D00C7A600BB3BF2 /* OASwiftUIExampleUITests */,
+				5FF7FDBB2D0F56E000B5A2EC /* OAMacExample */,
+				5FF7FDCE2D0F56E200B5A2EC /* OAMacExampleTests */,
+				5FF7FDD82D0F56E200B5A2EC /* OAMacExampleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F2A95092D00C7A400BB3BF2 /* Resources */ = {
+		5FF7FDBA2D0F56E000B5A2EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2A951B2D00C7A600BB3BF2 /* Resources */ = {
+		5FF7FDCD2D0F56E200B5A2EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2A95252D00C7A600BB3BF2 /* Resources */ = {
+		5FF7FDD72D0F56E200B5A2EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,21 +247,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F2A95072D00C7A400BB3BF2 /* Sources */ = {
+		5FF7FDB82D0F56E000B5A2EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2A95192D00C7A600BB3BF2 /* Sources */ = {
+		5FF7FDCB2D0F56E200B5A2EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F2A95232D00C7A600BB3BF2 /* Sources */ = {
+		5FF7FDD52D0F56E200B5A2EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,20 +271,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5F2A951F2D00C7A600BB3BF2 /* PBXTargetDependency */ = {
+		5FF7FDD12D0F56E200B5A2EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F2A950A2D00C7A400BB3BF2 /* OASwiftUIExample */;
-			targetProxy = 5F2A951E2D00C7A600BB3BF2 /* PBXContainerItemProxy */;
+			target = 5FF7FDBB2D0F56E000B5A2EC /* OAMacExample */;
+			targetProxy = 5FF7FDD02D0F56E200B5A2EC /* PBXContainerItemProxy */;
 		};
-		5F2A95292D00C7A600BB3BF2 /* PBXTargetDependency */ = {
+		5FF7FDDB2D0F56E200B5A2EC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F2A950A2D00C7A400BB3BF2 /* OASwiftUIExample */;
-			targetProxy = 5F2A95282D00C7A600BB3BF2 /* PBXContainerItemProxy */;
+			target = 5FF7FDBB2D0F56E000B5A2EC /* OAMacExample */;
+			targetProxy = 5FF7FDDA2D0F56E200B5A2EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5F2A952F2D00C7A600BB3BF2 /* Debug */ = {
+		5FF7FDE12D0F56E200B5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,18 +336,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5F2A95302D00C7A600BB3BF2 /* Release */ = {
+		5FF7FDE22D0F56E200B5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,81 +393,74 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5F2A95322D00C7A600BB3BF2 /* Debug */ = {
+		5FF7FDE42D0F56E200B5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OASwiftUIExample/OASwiftUIExample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = OAMacExample/OAMacExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OASwiftUIExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OAMacExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OASwiftUIExample/Info.plist;
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Display Advertising ID to end user";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OpenAttribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5F2A95332D00C7A600BB3BF2 /* Release */ = {
+		5FF7FDE52D0F56E200B5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OASwiftUIExample/OASwiftUIExample.entitlements;
+				CODE_SIGN_ENTITLEMENTS = OAMacExample/OAMacExample.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OASwiftUIExample/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"OAMacExample/Preview Content\"";
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = OASwiftUIExample/Info.plist;
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Display Advertising ID to end user";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OpenAttribution;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5F2A95352D00C7A600BB3BF2 /* Debug */ = {
+		5FF7FDE72D0F56E200B5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,18 +468,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OASwiftUIExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OAMacExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OASwiftUIExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OASwiftUIExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAMacExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OAMacExample";
 			};
 			name = Debug;
 		};
-		5F2A95362D00C7A600BB3BF2 /* Release */ = {
+		5FF7FDE82D0F56E200B5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,18 +486,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OASwiftUIExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OAMacExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OASwiftUIExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OASwiftUIExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAMacExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OAMacExample";
 			};
 			name = Release;
 		};
-		5F2A95382D00C7A600BB3BF2 /* Debug */ = {
+		5FF7FDEA2D0F56E200B5A2EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -534,16 +504,15 @@
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OASwiftUIExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OAMacExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OASwiftUIExample;
+				TEST_TARGET_NAME = OAMacExample;
 			};
 			name = Debug;
 		};
-		5F2A95392D00C7A600BB3BF2 /* Release */ = {
+		5FF7FDEB2D0F56E200B5A2EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -551,50 +520,49 @@
 				DEVELOPMENT_TEAM = 8ZKUDT7A65;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OASwiftUIExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ieesizaq.OAMacExampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OASwiftUIExample;
+				TEST_TARGET_NAME = OAMacExample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F2A95062D00C7A400BB3BF2 /* Build configuration list for PBXProject "OASwiftUIExample" */ = {
+		5FF7FDB72D0F56E000B5A2EC /* Build configuration list for PBXProject "OAMacExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F2A952F2D00C7A600BB3BF2 /* Debug */,
-				5F2A95302D00C7A600BB3BF2 /* Release */,
+				5FF7FDE12D0F56E200B5A2EC /* Debug */,
+				5FF7FDE22D0F56E200B5A2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F2A95312D00C7A600BB3BF2 /* Build configuration list for PBXNativeTarget "OASwiftUIExample" */ = {
+		5FF7FDE32D0F56E200B5A2EC /* Build configuration list for PBXNativeTarget "OAMacExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F2A95322D00C7A600BB3BF2 /* Debug */,
-				5F2A95332D00C7A600BB3BF2 /* Release */,
+				5FF7FDE42D0F56E200B5A2EC /* Debug */,
+				5FF7FDE52D0F56E200B5A2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F2A95342D00C7A600BB3BF2 /* Build configuration list for PBXNativeTarget "OASwiftUIExampleTests" */ = {
+		5FF7FDE62D0F56E200B5A2EC /* Build configuration list for PBXNativeTarget "OAMacExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F2A95352D00C7A600BB3BF2 /* Debug */,
-				5F2A95362D00C7A600BB3BF2 /* Release */,
+				5FF7FDE72D0F56E200B5A2EC /* Debug */,
+				5FF7FDE82D0F56E200B5A2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F2A95372D00C7A600BB3BF2 /* Build configuration list for PBXNativeTarget "OASwiftUIExampleUITests" */ = {
+		5FF7FDE92D0F56E200B5A2EC /* Build configuration list for PBXNativeTarget "OAMacExampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F2A95382D00C7A600BB3BF2 /* Debug */,
-				5F2A95392D00C7A600BB3BF2 /* Release */,
+				5FF7FDEA2D0F56E200B5A2EC /* Debug */,
+				5FF7FDEB2D0F56E200B5A2EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -602,27 +570,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		5F2A955C2D01A75E00BB3BF2 /* XCLocalSwiftPackageReference "../../../oa-ios-sdk" */ = {
+		5FF7FDEC2D0F56F500B5A2EC /* XCLocalSwiftPackageReference "../../../oa-ios-sdk" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = "../../../oa-ios-sdk";
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5F2A955D2D01A75E00BB3BF2 /* Marketing */ = {
+		5FF7FDED2D0F56F500B5A2EC /* Marketing */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Marketing;
 		};
-		5F2A955F2D01A75E00BB3BF2 /* MarketingData */ = {
+		5FF7FDEF2D0F56F500B5A2EC /* MarketingData */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MarketingData;
 		};
-		5F2A95952D02F53C00BB3BF2 /* MarketingDataIDFA */ = {
+		5FF7FDF12D0F56F500B5A2EC /* MarketingDataIDFA */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5F2A955C2D01A75E00BB3BF2 /* XCLocalSwiftPackageReference "../../../oa-ios-sdk" */;
 			productName = MarketingDataIDFA;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5F2A95032D00C7A400BB3BF2 /* Project object */;
+	rootObject = 5FF7FDB42D0F56E000B5A2EC /* Project object */;
 }
