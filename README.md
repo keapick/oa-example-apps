@@ -1,2 +1,5 @@
 # oa-example-apps
-Examples of Apps with OpenAttribution SDKs
+OpenAttribution SDK integration example and test apps.
+
+## OASwiftUIExample
+iOS App with a SwiftUI lifecycle.
