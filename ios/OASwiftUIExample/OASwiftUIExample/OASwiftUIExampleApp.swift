@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Marketing
 
 @main
 struct OASwiftUIExampleApp: App {
@@ -13,10 +14,9 @@ struct OASwiftUIExampleApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .onOpenURL(perform: { url in
-                    print("Link: \(url)")
+                .onOpenURL(perform: { url in                    
+                    Logger.shared.logDebug(message: "onOpenURL: \(url)")
                 })
         }
     }
-    
 }
