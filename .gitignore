@@ -95,3 +95,6 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
+# ignore link service test credentials
+ios/OASwiftUIExample/OASwiftUIExample/Resources/config.json
+

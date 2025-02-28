@@ -32,6 +32,14 @@ struct DataView: View {
                 }
                 .padding(.all, 5)
                 .border(.black)
+                
+                Button("Resolve Link") {
+                    Task { @MainActor in
+                        try await LinkResolution().resolveWithDub("https://dub.sh/ieesizaq1")
+                    }
+                }
+                .padding(.all, 5)
+                .border(.black)
             }
             TextEditor(text: $text)
                 .padding()
