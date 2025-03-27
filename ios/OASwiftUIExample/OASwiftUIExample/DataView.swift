@@ -35,7 +35,12 @@ struct DataView: View {
                 
                 Button("Resolve Link") {
                     Task { @MainActor in
-                        try await LinkResolution().resolveWithDub("https://dub.sh/ieesizaq1")
+                        do {
+                            let response = try await LinkResolution().resolveWithDub("https://dub.sh/ieesizaq1")
+                            Logger.shared.logDebug(message: "\(response)")
+                        } catch {
+                            print("\(error)")
+                        }
                     }
                 }
                 .padding(.all, 5)
@@ -47,14 +52,14 @@ struct DataView: View {
     }
     
     func requestDataSummary() async -> String {
-        if let string = await MarketingData(idfaSource: IDFACollector()).jsonSummary(configAllDataCollectionEnabled()) {
+        if let string = await MarketingData(configAllDataCollectionEnabled(), idfaSource: IDFACollector()).jsonSummary() {
             return string
         }
         return ""
     }
     
     func configAllDataCollectionEnabled() -> Config {
-        var rules = Config(version: "1.0.0")
+        var rules = Config()
         rules.useUserDefaults = true
         rules.includeAppDetails = true
         rules.includeDeviceDetails = true
